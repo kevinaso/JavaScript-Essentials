@@ -48,3 +48,21 @@ let isAuthenticated = true;
 let authenticationStatus = isAuthenticated ? 
 "Authenticated" : "Not authenticated";
 console.log("Authentication Status:", authenticationStatus);
+
+//Practice task
+
+let role="employee"
+
+switch (role) {
+    case "employee":
+        console.log("As an " + role + " you are authorized to have acces to Dietary services", );
+        break;
+    case "enrolled member":
+        console.log("As an " + role + " you are authorized to have acces to Dietary services and one-on-one interaction with a dietician", );
+        break;
+    case "susbscriber":
+        console.log("As an " + role + " you are authorized to have acces to partial Dietary services", );
+        break;
+    default:
+        console.log("As an non-subscriber you are not authorized to have acces to any service", );
+}
