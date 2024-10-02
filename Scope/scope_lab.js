@@ -1,3 +1,4 @@
+"use strict";
 // Global scope
 var globalVar = "I'm a global variable";
 let globalLet = "I'm also global, but scoped with let";
@@ -27,6 +28,36 @@ function show(){
 }
 show();
     
-console.log(functionVar); // Throws ReferenceError
-console.log(functionLet); // Throws ReferenceError
-console.log(functionConst); // Throws ReferenceError
+// console.log(functionVar); // Throws ReferenceError
+// console.log(functionLet); // Throws ReferenceError
+// console.log(functionConst); // Throws ReferenceError
+
+
+//Practice task
+{var myVar=69;
+    let myLet=19;
+    const myConst=56;
+
+    console.log(myVar)
+    console.log(myLet)
+    console.log(myConst)
+
+    myVar=4345435;
+    myLet=454676;
+    
+
+    console.log(myVar)
+    console.log(myLet)
+    // myConst=54534;
+    // console.log(myConst)
+
+}
+
+myVar=43450005;
+    let myLet=476;
+    const myConst=534;
+    console.log(myVar)
+    console.log(myLet)
+    console.log(myConst)
+
+    
