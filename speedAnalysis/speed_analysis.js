@@ -14,6 +14,10 @@ function startTest() {
     var button = document.getElementById("btn");
     button.innerHTML = "End Test";
     button.onclick = endTest;
+
+    // Cleaning user text and resetting ability to input text
+    document.getElementById("userInput").readOnly = false;
+    document.getElementById("userInput").value = "";
 }
 
     function endTest() {
